@@ -23,6 +23,7 @@ while number>=10:
     else:
         print("not a lucky car")
 print(digital_root)
+
 # 2.🚗 Lucky Car Number
 n=int(input("enter a  number: "))
 digital_root=((n-1)%9)+1
