@@ -74,7 +74,6 @@ else:
     print("💰 not a special treasure")
 
 # 6. 🐉 Dragon Energy
-
 n=int(input("enter energy value :"))
 while n>=10:
     digit_val=0
