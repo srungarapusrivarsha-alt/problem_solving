@@ -36,3 +36,18 @@ if square%p==n:
     print("Automorphic number")
 else:
     print("not Automorphic number")
+
+units = int(input("Enter no of units: "))
+
+cost1 = int(input("Enter cost for first 10 units: "))
+cost2 = int(input("Enter cost for 11 to 50 units: "))
+cost3 = int(input("Enter cost above 50 units: "))
+if units<=10:
+    bill=units*cost1
+    print(bill)
+elif units<=50:
+    bill=(10*cost1)+(units-10)*cost2
+    print(bill)
+else:
+    bill=(10*cost1)+(40*cost2)+((units-50)*cost3)
+    print(bill)
