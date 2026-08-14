@@ -33,9 +33,9 @@ while temp>0:
     p=p*10
     temp=temp//10
 if square%p==n:
-    print("Automorphic number")
+    print("ANN number")
 else:
-    print("not Automorphic number")
+    print("NOT ANN number")
 
 units = int(input("Enter no of units: "))
 
